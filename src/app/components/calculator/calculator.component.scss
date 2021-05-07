@@ -1,0 +1,126 @@
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 250px;
+    padding: 25px;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .result {
+    text-align: right;
+    line-height: 0;
+    font-size: 36px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    border: none;
+    position: relative;
+    width: 100%;
+    padding: 0px 10px;
+  
+  }
+  .small {
+    margin-top: 28px;
+    position: absolute;
+    color: orange;
+    top: 5px;
+    right: 5px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 10px;
+  }
+  ::placeholder {
+    color: white;
+    background-color: #000;
+  }
+  
+  .total {
+    color: white;
+    background-color: #000;
+    text-align: right;
+    line-height: 0;
+    font-size: 36px;
+    width: 100%;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .nums-container {
+    width: 75%;
+  }
+  
+  .ops-container {
+  
+    width: 25%;
+  
+  }
+  
+  
+  button {
+  
+    border-radius: 50%;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+  
+    /* box-sizing: border-box;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    background-color: #ccc;
+    line-height: 2em;
+    border-top: 0.01em solid #333;
+    border-left: 0.01em solid #333; */
+  }
+  
+  
+  button.big-h {
+    width:110px;
+    border-radius: 50px;
+  
+  }
+  
+  button.dark-grey {
+    background-color: grey ;
+    color: white;
+  }
+  button.light-grey {
+    background-color: #aaa;
+    color: black;
+  }
+  button.orange {
+    background-color: #FF9500;
+    color: white;
+  }
+  /* 
+  button.ac {
+    margin-right: 50%;
+  } */
+  
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button:active {
+    transform: scale(0.9)
+  }
+  
+  button:focus {
+    outline: none;
+  }
